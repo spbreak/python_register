@@ -3,7 +3,7 @@ import random
 
 url = "http://palletone.club/member.php?mod=register"
 
-params = {}
+params = {"SAq38w": (None, "123")}
 
 res = requests.post(url, files=params)
 
